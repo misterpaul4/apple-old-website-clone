@@ -79,26 +79,6 @@ span.search img {
   border-radius: 0 10px 10px 0;
 }
 
-.welcome {
-  width: 100%;
-  height: 80vh;
-  background-color: yellow;
-}
-
-.image-showcase {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 1px;
-  margin-top: 2px;
-}
-
-.image-showcase .img-container {
-  max-width: 100%;
-  height: 35vh;
-  background-color: black;
-}
-
 .footer-container {
   width: 100%;
   background-color: red;
@@ -131,4 +111,48 @@ span.search img {
   width: 20px;
   height: auto;
   margin-left: 5px;
+}
+
+.image-showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1px;
+  margin-top: 2px;
+}
+
+.image-showcase .img-container {
+  max-width: 100%;
+  height: 200px;
+}
+
+.welcome {
+  width: 100%;
+  height: 83vh;
+  background-image: url("img/background.jpg");
+  background-position: 0 99%;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.welcome {
+  background: no-repeat cover;
+}
+
+.img-1 {
+  background-image: url("img/1.jpg");
+}
+
+.img-2 {
+  background-image: url("img/2.jpg");
+}
+
+.img-3 {
+  background-image: url("img/3.jpg");
+}
+
+.img-4 {
+  background-image: url("img/4.jpg");
 }
