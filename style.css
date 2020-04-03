@@ -7,8 +7,8 @@
 .nav-container {
   width: 100%;
   height: 2rem;
-  background-color: red;
   margin-top: 5rem;
+  position: absolute;
 }
 
 .nav-container ul,
@@ -22,5 +22,51 @@
   background-color: green;
   height: 2rem;
 }
+
+.welcome {
+  width: 100%;
+  height: 80vh;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-img-text{
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  text-align: center;
+}
+
+.welcome.background-img-text span {
+  display: block;
+}
+
+.image-showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1px;
+  margin-top: 2px;
+}
+
+.image-showcase .img-container {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: red;
+  height: 5rem;
+}
+
+
+
+
+
+
 
 
