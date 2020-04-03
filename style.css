@@ -1,0 +1,26 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  width: 100%;
+  height: 2rem;
+  background-color: red;
+  margin-top: 5rem;
+}
+
+.nav-container ul,
+.footer-container ul {
+  display: flex;
+}
+
+.nav-container ul {
+  margin: 0 auto;
+  width: 70%;
+  background-color: green;
+  height: 2rem;
+}
+
+
