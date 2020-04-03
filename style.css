@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #fcfcf7;
+}
+
+span {
+  display: block;
+}
+
 .nav-container {
   width: 100%;
   height: 2rem;
   margin-top: 5rem;
   position: absolute;
-}
-
-span {
-  display: block;
 }
 
 .nav-container ul,
@@ -33,7 +37,6 @@ span {
   width: 70%;
   background-color: green;
   height: 2rem;
-  color: #fcfcf7;
 }
 
 span.search {
@@ -82,13 +85,6 @@ span.search img {
   background-color: yellow;
 }
 
-.background-img-text {
-  width: 50%;
-  height: 50%;
-  background-color: white;
-  text-align: center;
-}
-
 .image-showcase {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -108,4 +104,31 @@ span.search img {
   background-color: red;
   height: 8rem;
   overflow: hidden;
+}
+
+.background-img-text {
+  width: 70%;
+  height: 40%;
+  background-color: purple;
+  text-align: center;
+}
+
+.text-bg {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+.text-nm {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.text-sm {
+  font-size: 1.2rem;
+}
+
+.text-sm img{
+  width: 20px;
+  height: auto;
+  margin-left: 5px;
 }
