@@ -36,15 +36,14 @@ span {
   align-items: center;
 }
 
-
 .nav-container .header-nav {
   border-radius: 6px 0 0 6px;
   font-weight: 700;
   width: 60%;
   height: 2.2rem;
-  background: rgb(113,113,113);
-  background: linear-gradient(106deg, rgba(113,113,113,1) 0%, rgba(132,132,132,1) 98%);
-  box-shadow: -1px 0px 0px 1px rgba(113,113,113,1);
+  background: rgb(113, 113, 113);
+  background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
+  box-shadow: -1px 0 0 1px rgba(113, 113, 113, 1);
 }
 
 .search-container {
@@ -53,9 +52,9 @@ span {
   position: relative;
   border-left: 1px solid #636058;
   border-radius: 0 6px 6px 0;
-  background: rgb(113,113,113);
-  background: linear-gradient(106deg, rgba(113,113,113,1) 0%, rgba(132,132,132,1) 98%);
-  box-shadow: 1px 0px 0px 1px rgba(113,113,113,1);
+  background: rgb(113, 113, 113);
+  background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
+  box-shadow: 1px 0 0 1px rgba(113, 113, 113, 1);
 }
 
 .search-container input {
@@ -64,9 +63,9 @@ span {
   padding-left: 22px;
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.75);
-  background: rgb(113,113,113);
-  background: linear-gradient(106deg, rgba(113,113,113,1) 0%, rgba(132,132,132,1) 98%);
+  box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.75);
+  background: rgb(113, 113, 113);
+  background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
 }
 
 .search-container label {
@@ -82,13 +81,26 @@ span {
   top: 4px;
 }
 
-.nav-items{
+.nav-items {
   flex: 1;
   border-left: 1px solid #636058;
 }
 
 .nav-items-0 {
   flex: 1;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav a {
+  color: #fcfcf7;
+}
+
+footer a {
+  color: #08c;
 }
 
 .nav-items a {
@@ -111,13 +123,12 @@ span {
   width: 17px;
   height: auto;
   position: absolute;
-  left: 0; 
-  right: 0; 
+  left: 0;
+  right: 0;
   top: 0;
   bottom: 0;
   margin: auto;
 }
-
 
 .background-img-text {
   width: 70%;
@@ -139,7 +150,7 @@ span {
   font-size: 1.5rem;
 }
 
-.text-sm img{
+.text-sm img {
   width: 30px;
   height: auto;
   margin-left: 5px;
@@ -204,19 +215,6 @@ span {
 
 .footer-container span {
   display: inline;
-}
-
-a {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-footer a {
-  color: #08c;
-}
-
-nav a {
-  color: #fcfcf7;
 }
 
 .footer-nav-item,
