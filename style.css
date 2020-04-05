@@ -76,6 +76,10 @@ span {
   width: 80%;
 }
 
+.search-container:focus-within {
+  width: 15%;
+}
+
 .search-container input:focus {
   color: black;
   background-image: url("img/icons/search-focus.svg");
