@@ -99,6 +99,17 @@ nav a {
   color: #fcfcf7;
 }
 
+nav a:hover {
+  background: rgb(113, 113, 113);
+  background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
+}
+
+main a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 footer a {
   color: #08c;
 }
