@@ -64,14 +64,22 @@ span {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.75);
-  background: rgb(113, 113, 113);
-  background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
-}
+  background: no-repeat;
+  background-position: 7% 50%;
+  background-size: 12px auto;
+  background-image: url("img/icons/search.svg");
+ }
 
 .search-container label {
   display: block;
   position: relative;
   width: 80%;
+}
+
+.search-container input:focus {
+  color: black;
+  background-image: url("img/icons/search-focus.svg");
+  background-color: #fcfcf7;
 }
 
 .search-icon {
@@ -185,14 +193,6 @@ footer a {
   height: 83vh;
   background-image: url("img/background.jpg");
   background-position: 0 99%;
-}
-
-.img-1,
-.img-2,
-.img-3,
-.img-4,
-.welcome {
-  background: no-repeat cover;
 }
 
 .img-1 {
