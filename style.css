@@ -23,7 +23,6 @@ span {
 .nav-container,
 .nav-container .header-nav,
 .footer-container ul,
-.logo,
 .flex-center,
 .footer-container {
   display: flex;
@@ -33,6 +32,8 @@ span {
   justify-content: center;
   align-items: center;
 }
+
+
 
 .nav-container .header-nav {
   border-radius: 6px 0 0 6px;
@@ -77,11 +78,6 @@ span {
   top: 4px;
 }
 
-.logo img {
-  width: 15px;
-  height: auto;
-}
-
 .nav-items{
   flex: 1;
   border-left: 1px solid #636058;
@@ -91,9 +87,28 @@ span {
   flex: 1;
 }
 
-.logo {
+.nav-items a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  text-align: center;
+  line-height: 2.5rem;
+  vertical-align: middle;
+}
+
+.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
   border-radius: 10px 0 0 10px;
 }
+
+.logo img {
+  width: 15px;
+  height: auto;
+}
+
 
 .background-img-text {
   width: 70%;
@@ -183,6 +198,7 @@ span {
 
 a {
   color: #15c8d4;
+  cursor: pointer;
   text-decoration: none;
 }
 
