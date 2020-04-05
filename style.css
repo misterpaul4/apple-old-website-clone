@@ -19,7 +19,7 @@ span {
   position: absolute;
 }
 
-.nav-container ul,
+.nav-container .header-nav,
 .footer-container ul,
 .logo,
 .flex-center,
@@ -32,7 +32,7 @@ span {
   align-items: center;
 }
 
-.nav-container ul {
+.nav-container .header-nav {
   margin: 0 auto;
   border-radius: 10px;
   width: 70%;
