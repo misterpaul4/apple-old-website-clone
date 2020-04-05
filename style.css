@@ -100,8 +100,8 @@ nav a {
 }
 
 nav a:hover {
-  background: rgb(113, 113, 113);
-  background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
+ background: rgb(28, 26, 26);
+ background: linear-gradient(101deg, rgba(28, 26, 26, 1) 0%, rgba(84, 84, 84, 1) 97%);
 }
 
 main a {
