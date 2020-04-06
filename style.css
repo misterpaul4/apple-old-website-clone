@@ -11,6 +11,12 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+.container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 span {
   display: block;
 }
@@ -190,6 +196,7 @@ nav a:hover {
   height: 83vh;
   background-image: url("img/background.jpg");
   background-position: 0 99%;
+  background-repeat: round space;
 }
 
 .img-1 {
@@ -208,7 +215,6 @@ nav a:hover {
   background-image: url("img/4.jpg");
 }
 
-.welcome,
 .img-1,
 .img-2,
 .img-3,
