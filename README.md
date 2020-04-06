@@ -1,57 +1,28 @@
 # Project Name
 
-> One paragraph statement about the project.
+> A clone of apple.com (old)
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.jpg)
 
-Additional description about the project and its features.
+The goal of this project was to create a similar design to the site (https://web.archive.org/web/20140301004610/http://www.apple.com/) with more emphasis on the use of backgrounds and gradients.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://rawcdn.githack.com/misterpaul4/apple-old-website-clone/acfb372b01a940c5151c879e1989a286ba5ada86/index.html)
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Email: [@gmail](ajuzepaul@gmail.com)
+- Github: [@githubhandle](https://github.com/misterpaul4)
+- Twitter: [@twitterhandle](https://twitter.com/paulajuze)
+- Linkedin: [linkedin](https://www.linkedin.com/in/chukwuebuka-paul-ajuizeogu/)
 
 ## 🤝 Contributing
 
