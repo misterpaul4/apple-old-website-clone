@@ -13,7 +13,7 @@ The goal of this project was to create a similar design to the site (https://web
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/misterpaul4/apple-old-website-clone/acfb372b01a940c5151c879e1989a286ba5ada86/index.html)
+[Live Demo Link](https://rawcdn.githack.com/misterpaul4/apple-old-website-clone/d9b918350a605783829db951a46071e83b622d16/index.html)
 
 ## Authors
 
