@@ -9,12 +9,19 @@
 body {
   color: #fcfcf7;
   font-family: 'Quicksand', sans-serif;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .container {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
+}
+
+nav {
+  position: relative;
+  width: 100%;
 }
 
 span {
@@ -153,8 +160,8 @@ nav a:hover {
 }
 
 .background-img-text {
-  width: 70%;
-  height: 40%;
+  width: 50em;
+  height: 15em;
   text-align: center;
 }
 
