@@ -30,7 +30,8 @@
   background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
   box-shadow: 1px 0 0 1px rgba(113, 113, 113, 1);
   border-radius: 6px;
-  font-weight: 700;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .nav-item {
@@ -90,4 +91,20 @@ a {
 .logo img {
   width: 17px;
   height: auto;
+}
+
+
+@media all and (max-width: 1000px) {
+  .nav-container {
+    padding-top: 0;
+  }
+
+  .nav {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media all and (max-width: 700px) {
+  
 }
