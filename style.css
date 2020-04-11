@@ -93,6 +93,9 @@ a {
   height: auto;
 }
 
+.nav-container > .shop-icon, div.logo, label[for="toggle"], #toggle {
+  display: none;
+}
 
 @media all and (max-width: 1000px) {
   .nav-container {
@@ -106,5 +109,20 @@ a {
 }
 
 @media all and (max-width: 700px) {
-  
+  .nav {
+    display: none;
+  }
+
+  .nav-container {
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+  }
+
+  .nav-container > .shop-icon, div.logo, label[for="toggle"] {
+    display: flex;
+  }
 }
