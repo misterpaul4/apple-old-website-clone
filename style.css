@@ -1,33 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
- :root {
-  --nav-height: 2.2rem;
+:root {
+  --nav-height : 2.2rem;
 }
 
 .nav-container {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-top: 5rem;
+}
+
+.bd-left {
+  border-left: 1px solid #636058;
 }
 
 .nav {
   display: flex;
   width: 70%;
   height: var(--nav-height);
-  border: 1px solid #AF3939;
   justify-content: space-between;
   background: rgb(113, 113, 113);
   background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
   box-shadow: 1px 0 0 1px rgba(113, 113, 113, 1);
+  border-radius: 6px;
+  font-weight: 700;
 }
 
 .nav-item {
-  border: 1px solid #84B770;
-  flex: 1; /* flex item */
+  flex: 1; 
   height: 100%;
   display: flex;
   justify-content: center;
@@ -36,25 +43,24 @@
 
 .nav-search {
   flex: 2;
-  position: relative;
 }
 
 .nav-search label {
   display: block;
-  position: relative;
-  width: 80%;
+  width: 80%; 
 }
 
 .nav-search input {
   border: none;
-  padding-left: 27px;
+  padding-left: 30px;
   width: 100%;
   border-radius: 10px;
+  background: rgb(113, 113, 113);
+  background: linear-gradient(106deg, rgba(113, 113, 113, 1) 0%, rgba(132, 132, 132, 1) 98%);
   background-image: url("img/icons/search.svg");
-  background-position: 0 100%;
-  position: relative;
+  background-repeat: no-repeat;
+  background-position: 7% 50%;
   background-size: 12px auto;
-  background: no-repeat;
   box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.75);
 }
 
@@ -64,6 +70,10 @@
   background-color: #fcfcf7;
 }
 
+.nav-search:focus-within {
+  flex: 3;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -71,20 +81,13 @@ a {
 
 .nav a {
   width: 100%;
-  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo img {
   width: 17px;
   height: auto;
-}
-
-
-@media all and (max-width: 900px) {
-
-}
-
-
-@media all and (max-width: 600px) {
-
 }
