@@ -8,6 +8,7 @@
 
 :root {
   --nav-height : 2.2rem;
+  --text-height: 20rem;
 }
 
 .wrapper {
@@ -122,6 +123,12 @@ label[for="toggle"] {
   margin: 10px 15px;
 }
 
+span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
 .text-container {
   display: flex;
   justify-content: center;
@@ -131,6 +138,9 @@ label[for="toggle"] {
   display: flex;
   flex-basis: 80%;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--text-height);
   border: 1px solid red;
 }
 
