@@ -156,6 +156,43 @@ span {
   font-size: 1.5vw;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-grid {
+  flex-basis: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-container {
+  flex-grow: 0;
+  flex-basis: 364px;
+  width: auto;
+  height: 200px;
+  background-repeat: no-repeat;
+}
+
+.img-1 {
+  background-image: url("img/1.jpg");
+}
+
+.img-2 {
+  background-image: url("img/2.jpg");
+}
+
+.img-3 {
+  background-image: url("img/3.jpg");
+}
+
+.img-4 {
+  background-image: url("img/4.jpg");
+}
+
+
 @media all and (max-width: 1000px) {
   .nav-container {
     padding-top: 0;
