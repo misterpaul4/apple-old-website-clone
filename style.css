@@ -141,7 +141,6 @@ span {
   justify-content: space-between;
   align-items: center;
   height: var(--text-height);
-  border: 1px solid red;
 }
 
 .text-bg {
@@ -162,18 +161,20 @@ span {
 }
 
 .image-grid {
-  flex-basis: 98%;
+  flex-basis: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .img-container {
+  margin: 5px;
   flex-grow: 0;
+  flex-shrink: 0;
   flex-basis: 364px;
-  width: auto;
   height: 200px;
   background-repeat: no-repeat;
+  box-shadow: 2px 0px 14px 0px rgba(217,204,217,1);
 }
 
 .img-1 {
