@@ -90,8 +90,15 @@
 }
 
 a {
-  color: white;
   text-decoration: none;
+}
+
+nav a {
+  color: white;
+}
+
+footer a {
+ color: rgb(10, 187, 178);
 }
 
 .nav a {
@@ -194,6 +201,40 @@ span {
   background-image: url("img/4.jpg");
 }
 
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.footer-content {
+  flex-basis: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 0.7rem;
+  color: #6e6e6e;
+}
+
+.footer-nav-item {
+  border-right: 1px solid gray;
+  padding: 0 5px;
+}
+
+.footer-nav .footer-flag {
+  border: none;
+}
+
+.footer-nav-item img {
+  width: 0.7rem;
+  height: auto;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
 
 @media all and (max-width: 1000px) {
   .nav-container {
