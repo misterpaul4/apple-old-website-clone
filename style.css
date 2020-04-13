@@ -12,13 +12,17 @@
 }
 
 .wrapper {
-  height: 100vh;
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-image {
   background-image: url("img/background.jpg");
   background-position: 0 -47em;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
+  opacity: 0.7;
+  width: 100%;
+  height: 80vh;
 }
 
 .nav-container {
@@ -26,6 +30,8 @@
   display: flex;
   justify-content: center;
   padding-top: 5rem;
+  position: fixed;
+  z-index: 1;
 }
 
 .bd-left {
@@ -118,6 +124,7 @@ footer a {
 
 label[for="toggle"] {
   order: -1;
+  cursor: pointer;
 }
 
 .shop-icon {
@@ -138,6 +145,8 @@ span {
   display: flex;
   justify-content: center;
   color: whitesmoke;
+  margin-top: 10rem;
+  position: absolute;
 }
 
 .text-content {
@@ -205,6 +214,7 @@ span {
   display: flex;
   justify-content: center;
   padding: 2rem 0;
+  background-color: white;
 }
 
 .footer-content {
