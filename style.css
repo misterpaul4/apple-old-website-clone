@@ -171,9 +171,10 @@ span {
   margin: 5px;
   flex-grow: 0;
   flex-shrink: 0;
-  flex-basis: 364px;
-  height: 200px;
+  flex-basis: 300px;
+  height: 180px;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   box-shadow: 2px 0px 14px 0px rgba(217,204,217,1);
 }
 
